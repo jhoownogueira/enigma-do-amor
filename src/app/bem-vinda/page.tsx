@@ -44,7 +44,7 @@ export default function Instrucoes() {
         >
           <MusicNote size={16} weight="fill" />
         </button>
-        <audio ref={audioRef} src="/music/singularity.ogg" loop hidden>
+        <audio ref={audioRef} src="/singularity.ogg" loop hidden>
           Seu navegador não suporta o elemento de áudio.
         </audio>
         <div className="w-full max-h-[500px] flex flex-col items-center overflow-y-auto py-3 pb-8">
