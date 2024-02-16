@@ -2,6 +2,7 @@
 import { MusicNote } from "@phosphor-icons/react";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
+import audioFile from "../../../public/SINGULARITY.ogg";
 
 export default function Instrucoes() {
   const [step, setStep] = useState(1);
@@ -44,7 +45,7 @@ export default function Instrucoes() {
         >
           <MusicNote size={16} weight="fill" />
         </button>
-        <audio ref={audioRef} src="/singularity.ogg" loop hidden>
+        <audio ref={audioRef} src={audioFile} loop hidden>
           Seu navegador não suporta o elemento de áudio.
         </audio>
         <div className="w-full max-h-[500px] flex flex-col items-center overflow-y-auto py-3 pb-8">
