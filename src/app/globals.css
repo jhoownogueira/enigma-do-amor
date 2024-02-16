@@ -8,7 +8,6 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  letter-spacing: -0.02em !important;
 }
 html {
   font-family: "Inter", sans-serif;

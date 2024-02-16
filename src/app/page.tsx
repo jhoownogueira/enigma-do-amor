@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.push("/instrucoes");
+      router.push("/bem-vinda");
     }, 3000);
 
     return () => clearTimeout(timer);
@@ -20,6 +20,7 @@ export default function Home() {
         backgroundImage: 'url("/image/bg.jpg")',
         backgroundPosition: "center center",
         backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
       }}
       className="flex min-h-screen flex-col items-center justify-between p-24 animate-fadeIn"
     ></main>
