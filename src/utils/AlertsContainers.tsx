@@ -13,7 +13,7 @@ export function AlertsContainers() {
 export const Alerts = {
   errorDark: (message: string) =>
     toast.error(`😔 ${message}`, {
-      position: "top-right",
+      position: "top-center",
       autoClose: 2000,
       hideProgressBar: false,
       closeOnClick: true,
@@ -25,7 +25,7 @@ export const Alerts = {
 
   successDark: (message: string) =>
     toast.success(`🙂 ${message}`, {
-      position: "top-right",
+      position: "top-center",
       autoClose: 2000,
       hideProgressBar: false,
       closeOnClick: true,
